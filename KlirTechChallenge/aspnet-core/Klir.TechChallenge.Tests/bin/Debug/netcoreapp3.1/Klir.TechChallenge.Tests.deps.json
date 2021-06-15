@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Klir.TechChallenge.Tests/1.0.0": {
         "dependencies": {
+          "Klir.TechChallenge.Web.Api": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "coverlet.collector": "1.2.0",
           "xunit": "2.4.0",
@@ -687,6 +688,28 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.5.0"
         }
+      },
+      "Klir.TechChallenge.Domain/1.0.0": {
+        "runtime": {
+          "Klir.TechChallenge.Domain.dll": {}
+        }
+      },
+      "Klir.TechChallenge.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Klir.TechChallenge.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Klir.TechChallenge.Infrastructure.dll": {}
+        }
+      },
+      "Klir.TechChallenge.Web.Api/1.0.0": {
+        "dependencies": {
+          "Klir.TechChallenge.Domain": "1.0.0",
+          "Klir.TechChallenge.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "Klir.TechChallenge.Web.Api.dll": {}
+        }
       }
     }
   },
@@ -713,7 +736,7 @@
     "Microsoft.CSharp/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iN37XU89R5n53OKMPqKGI9bmrXW8fDWec0UdrApQxum+PHR7o18s1CedoR0b6TBEAwUceE9RpAWzpkAKd/A+GA==",
+      "sha512": "sha512-17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
       "path": "microsoft.csharp/4.0.1",
       "hashPath": "microsoft.csharp.4.0.1.nupkg.sha512"
     },
@@ -790,7 +813,7 @@
     "System.Dynamic.Runtime/4.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CWUIUL7jFCU1zDtu5LPG6ZpjNufWbYsoKw+Jo7W91ina/CthlMRIPBFrbvPYcS2Z4qyf6dWBgjEeZM3wc5+/AQ==",
+      "sha512": "sha512-db34f6LHYM0U0JpE+sOmjar27BnqTVkbLJhgfwMpTdgTigG/Hna3m2MYVwnFzGGKnEJk2UXFuoVTr8WUbU91/A==",
       "path": "system.dynamic.runtime/4.0.11",
       "hashPath": "system.dynamic.runtime.4.0.11.nupkg.sha512"
     },
@@ -930,7 +953,7 @@
     "System.Runtime.Serialization.Primitives/4.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sPEQpszgqDP+NohcNSrM/Im/qPc9KZUsH4nE/GX5tqwjhp1gohI6PCYpZJQr6BLmAgHwtRtznqpwcAGaEZxeBQ==",
+      "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
       "path": "system.runtime.serialization.primitives/4.1.1",
       "hashPath": "system.runtime.serialization.primitives.4.1.1.nupkg.sha512"
     },
@@ -1045,6 +1068,21 @@
       "sha512": "sha512-3eq5cGXbEJkqW9nwLuXwtxy9B5gMA8i7HW4rN63AhAvy5UvEcQbZnve23wx/oPrkyg/4CbfNhxkBezS0b1oUdQ==",
       "path": "xunit.runner.visualstudio/2.4.0",
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
+    },
+    "Klir.TechChallenge.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Klir.TechChallenge.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Klir.TechChallenge.Web.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

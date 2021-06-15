@@ -901,6 +901,46 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Klir.TechChallenge.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Klir.TechChallenge.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Klir.TechChallenge.Domain.dll": {}
+        }
+      },
+      "Klir.TechChallenge.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Klir.TechChallenge.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Klir.TechChallenge.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Klir.TechChallenge.Infrastructure.dll": {}
+        }
+      },
+      "Klir.TechChallenge.Web.Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Klir.TechChallenge.Domain": "1.0.0",
+          "Klir.TechChallenge.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Klir.TechChallenge.Web.Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Klir.TechChallenge.Web.Api.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -3465,10 +3505,26 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Klir.TechChallenge.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Klir.TechChallenge.Domain/Klir.TechChallenge.Domain.csproj",
+      "msbuildProject": "../../Klir.TechChallenge.Domain/Klir.TechChallenge.Domain.csproj"
+    },
+    "Klir.TechChallenge.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../Klir.TechChallenge.Infrastructure/Klir.TechChallenge.Infrastructure.csproj",
+      "msbuildProject": "../../Klir.TechChallenge.Infrastructure/Klir.TechChallenge.Infrastructure.csproj"
+    },
+    "Klir.TechChallenge.Web.Api/1.0.0": {
+      "type": "project",
+      "path": "../Klir.TechChallenge.Web.Api/Klir.TechChallenge.Web.Api.csproj",
+      "msbuildProject": "../Klir.TechChallenge.Web.Api/Klir.TechChallenge.Web.Api.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Klir.TechChallenge.Web.Api >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "coverlet.collector >= 1.2.0",
       "xunit >= 2.4.0",
@@ -3509,7 +3565,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\Klir\\cart-sample\\KlirTechChallenge\\aspnet-core\\Klir.TechChallenge.Web.Api\\Klir.TechChallenge.Web.Api.csproj": {
+              "projectPath": "C:\\Projects\\Klir\\cart-sample\\KlirTechChallenge\\aspnet-core\\Klir.TechChallenge.Web.Api\\Klir.TechChallenge.Web.Api.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mLzU+Gn90VOvRlsoYVAXeef8OvQ2a5T6EuF/hSserBduJee1wXxF7e4yj+gl01dQ/weAzuZ2QPom9nmE53qdLA==",
+  "dgSpecHash": "VsqPu5e7UnH9j6toMLhYG98pvUaYYWb+3qpifFVJl+aT56NNBqC/N+sEhuy9+pHDWkhEX80wPnFhCnrPOzVx5Q==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Klir\\cart-sample\\KlirTechChallenge\\aspnet-core\\Klir.TechChallenge.Tests\\Klir.TechChallenge.Tests.csproj",
   "expectedPackageFiles": [

@@ -6,3 +6,4 @@ C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Domain\bin\Deb
 C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Domain\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.pdb
 C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Domain\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.dll
 C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Domain\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.pdb
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Domain\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.csprojAssemblyReference.cache
