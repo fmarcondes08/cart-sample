@@ -221,6 +221,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
+      },
+      "Klir.TechChallenge.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Klir.TechChallenge.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Klir.TechChallenge.Domain.dll": {}
+        }
       }
     }
   },
@@ -714,10 +724,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Klir.TechChallenge.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Klir.TechChallenge.Domain/Klir.TechChallenge.Domain.csproj",
+      "msbuildProject": "../../Klir.TechChallenge.Domain/Klir.TechChallenge.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Klir.TechChallenge.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.4"
     ]
   },
@@ -755,7 +771,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\Klir\\cart-sample\\KlirTechChallenge\\Klir.TechChallenge.Domain\\Klir.TechChallenge.Domain.csproj": {
+              "projectPath": "C:\\Projects\\Klir\\cart-sample\\KlirTechChallenge\\Klir.TechChallenge.Domain\\Klir.TechChallenge.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
