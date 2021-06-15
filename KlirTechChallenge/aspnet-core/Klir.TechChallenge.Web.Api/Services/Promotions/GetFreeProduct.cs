@@ -1,4 +1,5 @@
-﻿using Klir.TechChallenge.Domain.Models;
+﻿using Klir.TechChallenge.Domain.Enums;
+using Klir.TechChallenge.Domain.Models;
 using KlirTechChallenge.Web.Api.Interfaces;
 using System;
 
@@ -17,6 +18,7 @@ namespace Klir.TechChallenge.Web.Api.Promotions
             if (timesToChargeByPromotion > 0)
             {
                 item.SetPromotion();
+                item.PromotionId = (int)PromotionTypeEnum.Buy1Get1Free;
                 item.FinalPrice = item.OriginalPrice * timesToChargeByPromotion;
             }
 

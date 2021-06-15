@@ -29,7 +29,7 @@ namespace KlirTechChallenge.Web.Api
                 options.AddPolicy(name: AllowSpecificOrigins,
                                   builder =>
                                   {
-                                      builder.WithOrigins("http://localhost:4200");
+                                      builder.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod();
                                   });
             });
 

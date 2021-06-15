@@ -1,4 +1,6 @@
 ﻿
+using Klir.TechChallenge.Domain.Enums;
+
 namespace Klir.TechChallenge.Domain.Models
 {
     public class CartItem
@@ -6,6 +8,7 @@ namespace Klir.TechChallenge.Domain.Models
         public int Id { get; set; }
         public int ProductId { get; set; }
         public bool IsPromotion { get; set; }
+        public int PromotionId { get; set; }
         public decimal OriginalPrice { get; set; }
         public decimal FinalPrice { get; set; }
         public decimal Amount { get; set; }

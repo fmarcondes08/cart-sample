@@ -1,23 +1,33 @@
 import { Component, Inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { CartService } from '../services/cart-service';
 
 @Component({
-  selector: 'app-fetch-data',
-  templateUrl: './fetch-data.component.html'
+    selector: 'app-fetch-data',
+    templateUrl: './fetch-data.component.html'
 })
 export class FetchDataComponent {
-  public forecasts: WeatherForecast[];
 
-  constructor(http: HttpClient, @Inject('BASE_API_URL') baseUrl: string) {
-    http.get<WeatherForecast[]>(baseUrl + 'weatherforecast').subscribe(result => {
-      this.forecasts = result;
-    }, error => console.error(error));
-  }
-}
+    constructor(http: HttpClient, @Inject('BASE_API_URL') baseUrl: string, private cartService: CartService) {
+    }
+    public increaseAmount(productId: number) {
+        this.cartService.increaseItemAmount(productId)
+    }
 
-interface WeatherForecast {
-  date: string;
-  temperatureC: number;
-  temperatureF: number;
-  summary: string;
+    public reduceItemAmount(productId: number) {
+        this.cartService.reduceItemAmount(productId)
+    }
+
+    public getTotalPrice() {
+        if (!this.anyItemInTheCart())
+            return 0;
+
+        var sum = this.cartService.cart.items.map(p => p.finalPrice).reduce((a, b) => a + b)
+
+        return sum.toFixed()
+    }
+
+    public anyItemInTheCart() {
+        return this.cartService && this.cartService.cart && this.cartService.cart.items && this.cartService.cart.items.length > 0
+    }
 }

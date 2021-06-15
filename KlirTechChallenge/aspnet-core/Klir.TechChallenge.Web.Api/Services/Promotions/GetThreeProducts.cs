@@ -1,4 +1,5 @@
-﻿using Klir.TechChallenge.Domain.Models;
+﻿using Klir.TechChallenge.Domain.Enums;
+using Klir.TechChallenge.Domain.Models;
 using KlirTechChallenge.Web.Api.Interfaces;
 using System;
 
@@ -16,6 +17,7 @@ namespace Klir.TechChallenge.Web.Api.Promotions
 
             item.FinalPrice = (timesToApplyPromotion * 10m) + (timesToChargeFullPrice * item.OriginalPrice);
 
+            item.PromotionId = (int)PromotionTypeEnum.ThreeFor10Euro;
             item.SetPromotion();
             return item;
         }
