@@ -3,10 +3,6 @@ using Klir.TechChallenge.Domain.Interfaces;
 using Klir.TechChallenge.Domain.Models;
 using Klir.TechChallenge.Web.Api.Helper;
 using KlirTechChallenge.Web.Api.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Klir.TechChallenge.Web.Api.Services
 {
@@ -14,14 +10,12 @@ namespace Klir.TechChallenge.Web.Api.Services
     {
         private readonly IProductPromotionRepository _productPromotionRepository;
         private readonly IProductRepository _productRepository;
-        private readonly Helpers _helpers;
 
         public CartService(IProductPromotionRepository productPromotionRepository,
-            IProductRepository productRepository, Helpers helpers)
+            IProductRepository productRepository)
         {
             _productPromotionRepository = productPromotionRepository;
             _productRepository = productRepository;
-            _helpers = helpers;
         }
 
         public CartItem RecalculateItemPrice(CartItem item)
@@ -53,7 +47,7 @@ namespace Klir.TechChallenge.Web.Api.Services
 
         private CartItem ApplyPromotion(CartItem item, int promotionId)
         {
-            var applicator = _helpers.GetPromotionApplicator((PromotionTypeEnum)promotionId);
+            var applicator = Helpers.GetPromotionApplicator((PromotionTypeEnum)promotionId);
             applicator.Apply(item);
             return item;
         }

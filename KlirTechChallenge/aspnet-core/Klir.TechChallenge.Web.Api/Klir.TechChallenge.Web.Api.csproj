@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Klir.TechChallenge.Domain\Klir.TechChallenge.Domain.csproj" />
+    <ProjectReference Include="..\..\Klir.TechChallenge.Infrastructure\Klir.TechChallenge.Infrastructure.csproj" />
   </ItemGroup>
 
 

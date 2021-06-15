@@ -59,3 +59,45 @@ C:\Users\e4bar\Desktop\OneDrive\KlirStuff\_RH\Tech Challenge\KlirTechChallenge\a
 C:\Users\e4bar\Desktop\OneDrive\KlirStuff\_RH\Tech Challenge\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.csproj.CopyComplete
 C:\Users\e4bar\Desktop\OneDrive\KlirStuff\_RH\Tech Challenge\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\e4bar\Desktop\OneDrive\KlirStuff\_RH\Tech Challenge\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.csprojAssemblyReference.cache
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.AssemblyInfoInputs.cache
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.AssemblyInfo.cs
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.csproj.CoreCompileInputs.cache
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.pdb
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.exe
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.deps.json
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.runtimeconfig.json
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.runtimeconfig.dev.json
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.pdb
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Infrastructure.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.pdb
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Infrastructure.pdb
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\staticwebassets\Klir.TechChallenge.Web.Api.StaticWebAssets.Manifest.cache
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\staticwebassets\Klir.TechChallenge.Web.Api.StaticWebAssets.xml
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\scopedcss\bundle\Klir.TechChallenge.Web.Api.styles.css
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.RazorTargetAssemblyInfo.cache
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.csproj.CopyComplete
+C:\Projects\Klir\cart-sample\KlirTechChallenge\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.genruntimeconfig.cache

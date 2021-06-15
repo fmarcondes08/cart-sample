@@ -1,0 +1,12 @@
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Infrastructure\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Infrastructure\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infrastructure.AssemblyInfo.cs
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Infrastructure\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Infrastructure\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Infrastructure.deps.json
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Infrastructure\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Infrastructure.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Infrastructure\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Infrastructure.pdb
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Infrastructure\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Infrastructure\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.pdb
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Infrastructure\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infrastructure.csprojAssemblyReference.cache
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Infrastructure\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infrastructure.csproj.CopyComplete
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Infrastructure\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infrastructure.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Infrastructure\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Infrastructure.pdb

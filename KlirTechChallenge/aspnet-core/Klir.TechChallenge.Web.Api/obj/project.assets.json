@@ -231,6 +231,19 @@
         "runtime": {
           "bin/placeholder/Klir.TechChallenge.Domain.dll": {}
         }
+      },
+      "Klir.TechChallenge.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Klir.TechChallenge.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Klir.TechChallenge.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Klir.TechChallenge.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -729,11 +742,17 @@
       "type": "project",
       "path": "../../Klir.TechChallenge.Domain/Klir.TechChallenge.Domain.csproj",
       "msbuildProject": "../../Klir.TechChallenge.Domain/Klir.TechChallenge.Domain.csproj"
+    },
+    "Klir.TechChallenge.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../Klir.TechChallenge.Infrastructure/Klir.TechChallenge.Infrastructure.csproj",
+      "msbuildProject": "../../Klir.TechChallenge.Infrastructure/Klir.TechChallenge.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Klir.TechChallenge.Domain >= 1.0.0",
+      "Klir.TechChallenge.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.4"
     ]
   },
@@ -774,6 +793,9 @@
           "projectReferences": {
             "C:\\Projects\\Klir\\cart-sample\\KlirTechChallenge\\Klir.TechChallenge.Domain\\Klir.TechChallenge.Domain.csproj": {
               "projectPath": "C:\\Projects\\Klir\\cart-sample\\KlirTechChallenge\\Klir.TechChallenge.Domain\\Klir.TechChallenge.Domain.csproj"
+            },
+            "C:\\Projects\\Klir\\cart-sample\\KlirTechChallenge\\Klir.TechChallenge.Infrastructure\\Klir.TechChallenge.Infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\Klir\\cart-sample\\KlirTechChallenge\\Klir.TechChallenge.Infrastructure\\Klir.TechChallenge.Infrastructure.csproj"
             }
           }
         }

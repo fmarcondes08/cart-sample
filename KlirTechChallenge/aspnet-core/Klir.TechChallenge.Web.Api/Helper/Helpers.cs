@@ -3,14 +3,12 @@ using Klir.TechChallenge.Web.Api.Promotions;
 using KlirTechChallenge.Web.Api.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Klir.TechChallenge.Web.Api.Helper
 {
-    public class Helpers
+    public static class Helpers
     {
-        private Dictionary<PromotionTypeEnum, IPromotionService> Applicators
+        private static Dictionary<PromotionTypeEnum, IPromotionService> Applicators
         {
             get
             {
@@ -21,7 +19,7 @@ namespace Klir.TechChallenge.Web.Api.Helper
             }
         }
 
-        public IPromotionService GetPromotionApplicator(PromotionTypeEnum promotionType)
+        public static IPromotionService GetPromotionApplicator(PromotionTypeEnum promotionType)
         {
             IPromotionService applicator;
 

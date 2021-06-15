@@ -1,9 +1,6 @@
 ﻿using Klir.TechChallenge.Domain.Models;
 using KlirTechChallenge.Web.Api.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Klir.TechChallenge.Web.Api.Promotions
 {

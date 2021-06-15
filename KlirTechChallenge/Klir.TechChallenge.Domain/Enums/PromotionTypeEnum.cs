@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace Klir.TechChallenge.Domain.Enums
 {
     public enum PromotionTypeEnum : int

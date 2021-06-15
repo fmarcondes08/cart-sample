@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Klir.TechChallenge.Domain.Enums;
 
 namespace Klir.TechChallenge.Domain.Models
 {

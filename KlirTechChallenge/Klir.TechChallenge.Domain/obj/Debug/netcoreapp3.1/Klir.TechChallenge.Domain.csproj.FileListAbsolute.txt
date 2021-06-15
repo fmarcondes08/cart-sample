@@ -1,0 +1,8 @@
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Domain\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.AssemblyInfoInputs.cache
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Domain\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.AssemblyInfo.cs
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Domain\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Domain\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.deps.json
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Domain\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Domain\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.pdb
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Domain\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.dll
+C:\Projects\Klir\cart-sample\KlirTechChallenge\Klir.TechChallenge.Domain\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Domain.pdb
