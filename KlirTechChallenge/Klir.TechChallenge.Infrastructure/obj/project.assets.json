@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Klir.TechChallenge.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Klir.TechChallenge.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Klir.TechChallenge.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Klir.TechChallenge.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Klir.TechChallenge.Domain/Klir.TechChallenge.Domain.csproj",
+      "msbuildProject": "../Klir.TechChallenge.Domain/Klir.TechChallenge.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Klir.TechChallenge.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\marco\\.nuget\\packages\\": {},
@@ -41,7 +60,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\Klir\\cart-sample\\KlirTechChallenge\\Klir.TechChallenge.Domain\\Klir.TechChallenge.Domain.csproj": {
+              "projectPath": "C:\\Projects\\Klir\\cart-sample\\KlirTechChallenge\\Klir.TechChallenge.Domain\\Klir.TechChallenge.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
